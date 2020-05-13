@@ -9,9 +9,9 @@
 
 typedef uint8_t crc;
 
-#define POLYNOMIAL		0x07
+#define POLYNOMIAL		        0x07
 #define INITIAL_VALUE           0
-#define FINAL_XOR_VALUE		0
+#define FINAL_XOR_VALUE		    0
 #define REVERSED_DATA           FALSE
 #define REVERSED_OUT            FALSE
 
@@ -19,9 +19,9 @@ typedef uint8_t crc;
 
 typedef uint16_t crc;
 
-#define POLYNOMIAL		0x1021
+#define POLYNOMIAL		        0x1021
 #define INITIAL_VALUE           0xFFFF
-#define FINAL_XOR_VALUE		0
+#define FINAL_XOR_VALUE		    0
 #define REVERSED_DATA           FALSE
 #define REVERSED_OUT            FALSE
 
@@ -29,9 +29,9 @@ typedef uint16_t crc;
 
 typedef uint16_t crc;
 
-#define POLYNOMIAL		0x8005
+#define POLYNOMIAL		        0x8005
 #define INITIAL_VALUE           0xFFFF
-#define FINAL_XOR_VALUE		0
+#define FINAL_XOR_VALUE		    0
 #define REVERSED_DATA           TRUE
 #define REVERSED_OUT            FALSE
 
@@ -41,18 +41,18 @@ typedef uint16_t crc;
 
 typedef uint16_t crc;
 
-#define POLYNOMIAL		0x8005
+#define POLYNOMIAL		        0x8005
 #define INITIAL_VALUE           0x0000
-#define FINAL_XOR_VALUE		0x0000
+#define FINAL_XOR_VALUE		    0x0000
 #define REVERSED_DATA           TRUE
 #define REVERSED_OUT            FALSE
 
 #elif defined(CRC_24)
 typedef uint32_t crc;
 
-#define POLYNOMIAL		0x864CFB
+#define POLYNOMIAL		        0x864CFB
 #define INITIAL_VALUE           0xB704CE
-#define FINAL_XOR_VALUE		0x000000
+#define FINAL_XOR_VALUE		    0x000000
 #define REVERSED_DATA           FALSE
 #define REVERSED_OUT            FALSE
 #define WIDTH                   (24)
@@ -61,9 +61,9 @@ typedef uint32_t crc;
 
 typedef uint32_t crc;
 
-#define POLYNOMIAL		0x04C11DB7
+#define POLYNOMIAL		        0x04C11DB7
 #define INITIAL_VALUE           0xFFFFFFFF
-#define FINAL_XOR_VALUE		0xFFFFFFFF
+#define FINAL_XOR_VALUE		    0xFFFFFFFF
 #define REVERSED_DATA           TRUE
 #define REVERSED_OUT            FALSE
 
@@ -72,9 +72,9 @@ typedef uint32_t crc;
 
 typedef uint32_t crc;
 
-#define POLYNOMIAL		0x04C11DB7
+#define POLYNOMIAL		        0x04C11DB7
 #define INITIAL_VALUE           0xFFFFFFFF
-#define FINAL_XOR_VALUE		0
+#define FINAL_XOR_VALUE		    0
 #define REVERSED_DATA           FALSE
 #define REVERSED_OUT            TRUE
 
@@ -83,9 +83,9 @@ typedef uint32_t crc;
 
 typedef uint64_t crc;
 
-#define POLYNOMIAL		0xAD93D23594C935A9
+#define POLYNOMIAL		        0xAD93D23594C935A9
 #define INITIAL_VALUE           0xFFFFFFFFFFFFFFFF
-#define FINAL_XOR_VALUE		0
+#define FINAL_XOR_VALUE		    0
 #define REVERSED_DATA           TRUE
 #define REVERSED_OUT            FALSE
 
